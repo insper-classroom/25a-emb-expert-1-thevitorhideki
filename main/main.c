@@ -9,9 +9,9 @@
 #include "lwip/dns.h"
 #include "lwip/altcp_tls.h"
 
-#define WIFI_SSID "Kata"            // sua rede wifi
-#define WIFI_PASSWORD "Kata162a"    // sua senha
-#define MQTT_SERVER "192.168.15.46" // ip wifi do seu PC (para descobrir ipconfig)
+#define WIFI_SSID "Pix: 11970544995"  // sua rede wifi
+#define WIFI_PASSWORD "furada33"      // sua senha
+#define MQTT_SERVER "192.168.175.115" // ip wifi do seu PC (para descobrir ipconfig)
 
 // Temperature
 #ifndef TEMPERATURE_UNITS
