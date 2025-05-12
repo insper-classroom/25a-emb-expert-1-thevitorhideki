@@ -1,12 +1,3 @@
-/**
- * Copyright (c) 2022 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
-//
-// Created by elliot on 25/05/24.
-//
 #include "pico/stdlib.h"
 #include "pico/cyw43_arch.h"
 #include "pico/unique_id.h"
@@ -29,11 +20,6 @@
 
 #ifndef MQTT_SERVER
 #error Need to define MQTT_SERVER
-#endif
-
-// This file includes your client certificate for client server authentication
-#ifdef MQTT_CERT_INC
-#include MQTT_CERT_INC
 #endif
 
 #ifndef MQTT_TOPIC_LEN
